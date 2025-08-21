@@ -1,15 +1,5 @@
 {
-  "name": "Ollama Server",
-  "build": {
-    "dockerfile": "Dockerfile"
-  },
-  "settings": {
-    "terminal.integrated.shell.linux": "/bin/bash"
-  },
-  "extensions": [
-    "ms-vscode.cpptools",
-    "ms-vscode.cmake-tools"
-  ],
-  "postCreateCommand": "gcc --version",
+  "name": "Ollama-Server DevContainer",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
   "remoteUser": "vscode"
 }
